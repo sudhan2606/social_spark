@@ -1,0 +1,117 @@
+html, body{height:100%;
+    color: white;
+    background: url("../wall//2d213d36f66c318754bd4b78ab9361f1.jpg") no-repeat center/cover;
+    overflow: hidden;
+}   
+
+.myblog-heading{
+    font-weight: bold;
+    color: blue;    
+}
+
+
+.navigation-change{
+    background-color: rgba(0, 0, 0, 0);
+}
+.left-content-login,.right-content-signup{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    position: relative;
+}
+.left-content-login{
+    width:400px;
+    height:400px;
+}
+.right-content-signup{
+    width:500px;
+    height:600px;
+}
+
+.login-photo{
+    position: absolute;
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    left:50%;
+    transform:translateX(-50%); 
+    top:-25%;
+
+}
+.right-content-signup .login-photo{
+    top: -16%;
+}
+.form-control{
+    margin-bottom: 4px;
+    padding: 0px;
+    background: none;
+    outline: none !important;
+    box-shadow:  none !important;
+    border-style: transparent !important; 
+    border-color: transparent;
+    border-bottom: 2px solid #33FFBD ;
+    text-align: center;
+    color: white;
+    margin-bottom:25px;
+    border-radius: 20px;
+}
+
+.form-control:focus{
+    background: none;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid red;   
+    transition: 1s;
+    color:white;
+
+}
+
+form h2{
+    margin-bottom: 50px;
+}
+
+.login-form ,.right-content-signup {
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+label{
+    text-align: left;
+}
+
+button{
+    width: 150px;
+    border: 2px solid #33FFBD ;
+    background: none;
+    text-align: center;
+    color: wheat;
+    border-radius: 20px;
+
+}
+button:hover{
+    border: 2px solid red;
+    width:200px;
+    transition: 0.3s;
+}
+.form-control::placeholder{
+    color: whitesmoke;
+}
+
+label{
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+
+h2{
+    color: white;
+}
+.header-navigation{
+    z-index: 999;
+}
+
+.sec1 div{
+    background-color: rgba(0, 0, 0, 0);
+}
+.left-content-login{
+    width:65%
+}

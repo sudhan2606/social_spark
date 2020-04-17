@@ -1,0 +1,1 @@
+$('.inside-posts').css('height','100%');

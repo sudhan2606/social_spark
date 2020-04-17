@@ -1,0 +1,29 @@
+html, body{height:100%;
+    width:100%;
+    background-color:#E9EBEE;
+    overflow-x:hidden;
+    
+}
+.navbar{
+    background-color:#4267B2;
+    color:whitesmoke;
+    z-index: 999;
+    height: auto;
+    
+
+} .navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.sec-1{
+    background-color:#E9EBEE;
+    padding-top:2vh; 
+    height: 90vh;
+}
+
+
+.make-center{
+    
+}

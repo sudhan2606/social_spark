@@ -1,0 +1,45 @@
+
+.column-2,.column-3{
+    background-color: whitesmoke
+}
+
+.left-col-data{
+    list-style: none;
+    padding-left: 70px;
+}
+
+.middle-col-data{
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    box-sizing: border-box;
+}
+
+.update-post{
+    top:0%; 
+    right:0%;
+}
+
+.send-message{
+    display: flex;
+    bottom: 0%;
+    justify-content: center;
+}
+
+.column-3{
+    width: 100%;
+    height: 100%;
+}
+.chatbox{
+    background-color: whitesmoke;
+    width:90%;
+    height: 86%;
+    border: 2px solid burlywood;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.show-messages{
+    background-color: #89CFF0;
+    
+}

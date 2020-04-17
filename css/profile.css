@@ -1,0 +1,76 @@
+html,body{
+    overflow-y:auto;
+    height: 100%;
+}
+
+.column-1,.column-2{
+background-color: white;
+}
+
+
+.cover-photo{
+    position: relative;
+    height: 45%;
+}
+.cover-img{
+    height:100%;
+}
+
+.file_choose{
+    position: absolute;
+    top: 0%;
+    right:0%;
+    
+}
+
+.profile-img{
+    position: absolute;
+    bottom: 0%;
+    left: 2%;
+    
+}
+
+.select-image-profile{
+
+    position: relative;
+    cursor: pointer;
+    
+}
+
+
+.update-profile-image{
+    position: absolute;
+    z-index: 999;
+}
+
+.middle-col-data{
+    overflow: auto;
+}
+.update-post{
+    top:0%; 
+    right:0%;
+}
+
+.send-message{
+    display: flex;
+    bottom: 8%;
+    justify-content: center;
+}
+
+.column-3{
+    width: 100%;
+    height: 100%;
+}
+.chatbox{
+    background-color: whitesmoke;
+    width:90%;
+    height: 86%;
+    border: 2px solid burlywood;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.show-messages{
+    background-color: #89CFF0;
+    
+}
